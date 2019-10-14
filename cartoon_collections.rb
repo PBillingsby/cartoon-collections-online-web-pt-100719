@@ -29,5 +29,4 @@ end
 
 def long_planeteer_calls(array)
     n.any? > 4 ? true : false
-  end
 end
