@@ -26,3 +26,9 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect {|name| name.capitalize + "!"}
 end
+
+def long_planeteer_calls(array)
+  array.each do |n| 
+    n > 4
+  end
+end
