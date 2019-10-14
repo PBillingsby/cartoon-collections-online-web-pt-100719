@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarves)# code an argument here
+=begin def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each_with_index {|item, index| puts "#{index + 1}. #{item}"}
 end
 
@@ -15,4 +15,9 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find {|item| cheese_types.include?(item)}
+end
+
+=end
+
+def roll_call_dwarves(dwarves)
 end
